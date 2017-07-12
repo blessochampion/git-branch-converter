@@ -17,6 +17,16 @@ This script converts every branch in a git project into a new project with each 
   branch2
   branch3
   ```
+  Your directory now becomes :
+   ```
+ Parent Folder
+            |
+            ----main.sh
+            |
+            ----My project
+            |
+            ----branches.txt
+```
 `[3]` If you are running `main.sh` for the first time, you will need to make it executable with this command:
 `chmod +x main.sh`.
 
